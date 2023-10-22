@@ -1,0 +1,116 @@
+/* THIS IS MY CSS PAGE */
+body{
+    background-color:white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+header{
+    background-color:#FCC73F;
+    padding: 1rem 2vw;
+}
+
+header h1{
+    margin: 0;
+    color: #024873;
+}
+
+header p{
+    margin:0;
+    color:#024873;
+    letter-spacing: .5px
+}
+
+/*--This is the navigation section--*/
+nav{
+    background-color: #E8471E;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #024873;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a{
+    background-color: #024873;
+    color:#f2b705;
+}
+
+nav a:hover{
+    color:white;
+}
+/*--THIS IS THE MAIN SECTION--*/
+main{
+    padding: 1rem 2vw;
+}
+
+main h1{
+    color: #CF2D08;
+}
+
+main h2{
+    color: #024873;
+    margin-bottom: .2rem;
+}
+
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem 0
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: #efefef;
+    list-style-type: circle;
+}
+
+main dl dt{
+    color: #b40412;
+    font-weight: 700;
+}
+
+main dl dd{
+    color: #024873;
+    font-size: .9rem;
+}
+
+main ul{
+    list-style-type:lower-roman;
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+/*--THIS IS THE FOOTER SECTION--*/
+footer{
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+    padding: 1rem 0; 
+    font-size: .8rem;
+}
+
+footer a{
+    color: #024873;
+}
